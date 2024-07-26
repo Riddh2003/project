@@ -1,0 +1,10 @@
+{
+    "name": "currency converter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "extension for converting currencies",
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    }
+}
