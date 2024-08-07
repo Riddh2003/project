@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Converter</title>
-    <script src="exchange.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Currency Converter</h1>
-    <input type="number" id="amount" placeholder="Enter Amount in GBP"/>
-    <select id="currency">
-        <option value="CHF">CHF</option>
-        <option value="AUD">AUD</option>
-        <option value="NZD">NZD</option>
-        <option value="DKK">DKK</option>
-        <option value="KRW">KRW</option>
-    </select>
-    <button id="convert">Convert</button>
-    <div id="result"></div>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="input-group">
+            <input type="number" id="amount" placeholder="Enter Amount in GBP" />
+        </div>
+        <div class="input-group">
+            <select id="currency">
+                <option value="CHF">CHF</option>
+                <option value="AUD">AUD</option>
+                <option value="NZD">NZD</option>
+                <option value="DKK">DKK</option>
+                <option value="KRW">KRW</option>
+            </select>
+        </div>
+        <button id="convert">Convert</button>
+        <div id="result"></div>
+    </div>
+    <script src="exchange.js"></script>
 </body>
 </html>
