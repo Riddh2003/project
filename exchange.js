@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const convert = document.getElementById('convert');
     const result = document.getElementById('result');
 
-    const apiKey = "kchlyHqCsljjIG8cJRbmFQ==jNwQUqRJQ6Xe8OBK";
+    const apiKey = "YOUR_APIKEY";
 
     convert.addEventListener('click', () => {
         console.log('hi');
